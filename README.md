@@ -13,7 +13,7 @@ This is project is a single page web application developed using the React libra
 ## Instructions
 
 ### How to start/use the Restaurant lookup React-Redux single page application
-- Application URL [Click here to launch Restaurant Lookup App](http://www.mariusdeallie.com/) 
+- Application URL [Click here to launch Restaurant Lookup App](restaurant-wrangler.netlify.app) 
 - Application may be downloaded or cloned (`git clone https://github.com/Marius-De-Allie/Restaurant-Lookup-React-Redux`) from [my GitHub repository](https://github.com/Marius-De-Allie/Restaurant-Lookup-React-Redux)
 - Once downloaded or cloned via git clone terminal command
 - Run `npm install` via terminal, to download all dependencies for the application.
