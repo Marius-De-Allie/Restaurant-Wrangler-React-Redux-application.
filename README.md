@@ -13,18 +13,19 @@ This is project is a single page web application developed using the React libra
 ## Instructions
 
 ### How to start/use the Restaurant lookup React-Redux single page application
-- Application URL [Click here to launch Restaurant Lookup App](restaurant-wrangler.netlify.app) 
-- Application may be downloaded or cloned (`git clone https://github.com/Marius-De-Allie/Restaurant-Lookup-React-Redux`) from [my GitHub repository](https://github.com/Marius-De-Allie/Restaurant-Lookup-React-Redux)
+- Application URL [Click here to launch Restaurant Lookup App](https://restaurant-lookup.netlify.app/) 
+- Application may be downloaded or cloned (`git clone https://github.com/Marius-De-Allie/Restaurant-Wrangler-React-Redux-application`) from [my GitHub repository](https://github.com/Marius-De-Allie/Restaurant-Wrangler-React-Redux-application)
 - Once downloaded or cloned via git clone terminal command
 - Run `npm install` via terminal, to download all dependencies for the application.
 - Run `npm start` via terminal, to launch application's dev server. This will result in a new tab being opened in your default browser and you should be presented with the Restaurant Lookup app Home page.
 
 ### How to use Restaurant Lookup React-Redux application.
-- On the application's Home Page (url: `http://www.mariusdeallie.com/`) the user will be presented with a search field at the top.
+- On the application's Home Page (url: `https://restaurant-lookup.netlify.app/`) the user will be presented with a search field at the top.
 - The user may initiate a new search by entering a city as a search term.
 - Once the search fields has been filled in, the serach submit button will becom active, allow the user to initiate the search. 
 - The search results (if any) will appear on screen, the app only displays the first 25 restaurants found. 
 - The user may narrow down the list of restaurants on screen by entering an additional search term into the filter input filter and hitting the filter button, in order to go back ot the full list of restaurants and remove the filter the user may click the reset filter button next to teh filter text field.
+- The user may click on the make a reservation button at the bottom of each restaurant card in the results to be taken to opentable's reservation page for that particulkar restaurant.
 
 
 ## Create_React_App_Info
