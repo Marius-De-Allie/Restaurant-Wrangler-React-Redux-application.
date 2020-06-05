@@ -1,0 +1,19 @@
+section.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.rest-list {
+    align-self: flex-start;
+    padding-left: 3rem;
+}
+
+.results-count {
+    align-self: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

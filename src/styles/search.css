@@ -1,0 +1,62 @@
+section.search-container.ui.segment section form.ui.form section.inline.field label {
+    margin-right: .25rem;
+    font-size: .9rem;
+}
+
+#search {
+    padding: .5rem;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+section.field input.submit-btn#submit {
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    margin-top: .5rem;
+}
+
+section.inline.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+section.inline.field input.submit-btn {
+    color: #000;
+}
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 768px) {
+    section.field input.submit-btn#submit {
+        display: block;
+        margin-top: 0;
+    }
+    section.search-container.ui.segment section form.ui.form section.inline.field label {
+        font-size: 1rem;
+    }
+
+    section.inline.field {
+        flex-direction: row;
+    }
+
+    section.search-container.ui.segment section.container {
+        margin-bottom: .5rem
+    }
+}
+
+@media (min-width:1200px) {
+    section.search-container.ui.segment {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+} 
+
+}

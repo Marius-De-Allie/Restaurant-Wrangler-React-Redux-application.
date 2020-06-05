@@ -1,0 +1,24 @@
+
+main.app.ui.container#main-container {
+    font-size: 1.6rem;
+}
+
+/* Header styling. */
+body header#header-container {
+    background-color: #4A10D7;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+header h1.ui.header {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    /* margin-bottom: 2.5rem; */
+    /* color: #424141; */
+}
+
+
+h2.ui.header.ui.segment {
+    text-align: center;
+    font-size: 1.2rem;
+}

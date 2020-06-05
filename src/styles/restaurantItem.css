@@ -1,0 +1,13 @@
+a {
+    color: #000;
+}
+
+div.ui.bottom.attached.button:hover {
+    /* text-decoration: none; */
+    background-color: #F6B521;
+    color: #fff
+};
+
+div.ui.bottomn.attached.button a#reserve-link:hover {
+    color: #fff;
+}

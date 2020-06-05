@@ -1,0 +1,39 @@
+#filter {
+    padding: .5rem .5rem;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+
+section.search-container.ui.segment section form.ui.form section.inline.field label {
+    margin-right: .25rem;
+}
+
+section.field input.filter-btn#filter-b {
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    margin-top: .5rem;
+}
+
+.filter-btn#filter-b:hover, input.reset-btn#reset:hover {
+    opacity: 0.8;
+
+}
+
+input.reset-btn#reset {
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-top: .5rem;
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+    section.field input.filter-btn#filter-b, input.reset-btn#reset {
+        display: block;
+        margin-top: 0;
+    }
+}
