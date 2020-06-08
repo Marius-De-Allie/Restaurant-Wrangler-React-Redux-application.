@@ -29,7 +29,7 @@ const App = (props) => {
         </section>
         {renderNotif()}
         {restaurants.total_entries !== undefined ? <RestaurantList /> :
-          <h2 className="ui header ui segment">Please enter a city in the search bar above to begin.</h2>
+          <h2 className="ui header ui segment" tabIndex="0">Please enter a city in the search bar above to begin.</h2>
         }
       </main>
     </Fragment>
